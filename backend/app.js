@@ -37,7 +37,8 @@ let groups = [
             lat: 42.59,
             lon: -5.58,
             tickets: 500,
-            free_tickets: 500
+            free_tickets: 500,
+            id: 1,
         },
         {
             place: 'Auditorio de León',
@@ -45,7 +46,8 @@ let groups = [
             lat: 42.60,
             lon: -5.57,
             tickets: 300,
-            free_tickets: 300
+            free_tickets: 300,
+            id: 2,
         },
         {
             place: 'Plaza Mayor de La Bañeza',
@@ -53,7 +55,8 @@ let groups = [
             lat: 42.29,
             lon: -5.90,
             tickets: 300,
-            free_tickets: 300
+            free_tickets: 300,
+            id: 3,
         },
     ],
     price: 4000,
@@ -69,7 +72,8 @@ let groups = [
                 lat: 42.45,
                 lon: -6.09,
                 tickets: 1000,
-                free_tickets: 1000
+                free_tickets: 1000,
+                id: 4,
             },
             {
                 place: 'El Toralín',
@@ -77,7 +81,8 @@ let groups = [
                 lat: 42.55,
                 lon: -6.59,
                 tickets: 300,
-                free_tickets: 300
+                free_tickets: 300,
+                id: 5,
             },
             {
                 place: 'Plaza Mayor de Sahagún',
@@ -85,7 +90,8 @@ let groups = [
                 lat: 42.37,
                 lon: -5.02,
                 tickets: 300,
-                free_tickets: 300
+                free_tickets: 300,
+                id: 6,
             },
         ],
         price: 4000,
@@ -102,7 +108,8 @@ let groups = [
                 lon: -5.90,
                 tickets: 1000,
                 free_tickets: 1000,
-                price: 4000
+                price: 4000,
+                id: 7,
             },
             {
                 place: 'La Robla',
@@ -111,7 +118,8 @@ let groups = [
                 lon: -5.62,
                 tickets: 300,
                 free_tickets: 300,
-                price: 3500
+                price: 3500,
+                id: 8,
             },
         ],
         price: 4000,
@@ -128,7 +136,8 @@ let groups = [
                 lon: -5.90,
                 tickets: 1000,
                 free_tickets: 1000,
-                price: 4000
+                price: 4000,
+                id: 9,
             },
             {
                 place: 'La Robla',
@@ -137,7 +146,8 @@ let groups = [
                 lon: -5.62,
                 tickets: 300,
                 free_tickets: 300,
-                price: 3500
+                price: 3500,
+                id: 10,
             },
         ],
         price: 4000,
@@ -154,7 +164,8 @@ let groups = [
                 lon: -5.90,
                 tickets: 1000,
                 free_tickets: 1000,
-                price: 4000
+                price: 4000,
+                id: 11,
             },
             {
                 place: 'La Robla',
@@ -163,7 +174,8 @@ let groups = [
                 lon: -5.62,
                 tickets: 300,
                 free_tickets: 300,
-                price: 3500
+                price: 3500,
+                id: 12,
             },
         ],
         price: 4000,

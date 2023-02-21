@@ -220,8 +220,26 @@ body {
 #results {
     
     display: flex;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;    
+}
+
+#results .purchase {
+    position: absolute;
+    font-size: 1.5em;
+    background-color: white;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    top: 10px;
+    right: 10px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#results .purchase:hover {
+    background-color: #daf0c2;
 }
 
 #results .group {
@@ -235,6 +253,7 @@ body {
     box-shadow: 6px 6px 4px #777;
     cursor: pointer;
     border: 2px solid black;
+    position: relative;
 }
 
 #results .group:hover {
@@ -275,7 +294,115 @@ body {
 
 
 
+.tickets-page {
+    width: 800px;
+    height: 540px;
+    position: fixed;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 6px 6px 5px grey;
 
+}
+
+.tickets-page h1 {
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background-color: #0A3143;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #abc4d1;
+    font-size: 3em;
+}
+
+.tickets-page h2 {
+    height: 40px;
+    line-height: 40px;
+    background-color: #206180;
+    color: white;
+    text-align: center;
+}
+
+.tickets-page>div {
+    display: flex;
+    align-items: center;
+}
+
+.tickets-page img {
+    width: 300px;
+    margin: 50px;
+}
+
+
+#right-panel {
+    width: 400px;
+    margin-right: 50px;
+}
+
+#tickets {
+    width: 150px;
+}
+
+#capacity, #available {
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.5em;
+}
+
+#capacity>span, #available>span {
+    font-weight: bold;
+}
+
+#num-tickets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+
+.ticket-btn {
+    width: 60px;
+    height: 60px;
+    background-color: #266D8F;
+    text-align: center;
+    line-height: 60px;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.ticket-btn:hover {
+    background-color: #3d92b9;
+}
+
+#tickets {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#buy-ticket {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 150px;
+    border-radius: 6px;
+    background-color: #71c0e4;
+    cursor: pointer;
+}
+
+#buy-ticket:hover {
+    background-color: #9ccce2;    
+}
 
 .hidden {
     display: none !important;
